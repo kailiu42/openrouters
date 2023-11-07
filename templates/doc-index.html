@@ -1,0 +1,30 @@
+{% extends "section.html" %}
+
+{% block content %}
+<div class="wrap container" role="document">
+  <div class="content">
+    <div class="row justify-content-center">
+      <div class="page-header">
+        <h1>{{ section.title }}</h1>
+      </div>
+      <div class="col-md-12 col-lg-10 col-xxl-8">
+        <article>
+          {% for val in section.extra.groups %}
+            <div>
+              <h2 class="h4">{{ val.title }}</h2>
+              <ul>
+              <!-- If you are using pagination, section.pages will be empty. You need to use the paginator object -->  
+              {% for page in section.pages %}
+                {% if page.extra.group_id == val.id %}
+                <li><a href="{{ page.permalink | safe }}">{{ page.title }}</a></li>
+                {% endif %}
+              {% endfor %}
+              </ul>
+            </div>
+          {% endfor %}
+        </article>
+      </div>
+    </div>
+  </div>
+</div>
+{% endblock content %}
