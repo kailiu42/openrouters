@@ -1,6 +1,6 @@
 +++
-title = "The first news"
-date = 2023-10-27
+title = "Hello, world"
+date = 2023-10-20
 template = "page.html"
 +++
 

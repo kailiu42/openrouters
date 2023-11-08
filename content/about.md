@@ -1,6 +1,6 @@
 +++
 title = "About this site"
-date = 2023-10-27
+date = 2023-10-20
 template = "page.html"
 +++
 
