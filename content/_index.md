@@ -9,7 +9,7 @@ url_button = "Read more"
 
 [[extra.list]]
 title = "Powerful"
-content = "Can be used as a router, a firewall, a NAS, a download station, or the combination of them all."
+content = "It can be used as a router, a firewall, a NAS, a download station, or the combination of them all."
 
 [[extra.list]]
 title = "Trustworthy"
@@ -21,7 +21,7 @@ content = "Comes with intuitive web interface for administrative tasks and monit
 
 [[extra.list]]
 title = "Stay up-to-date"
-content = "Open Source router OSes are kept updated and maintained, with the latest features and security fixes."
+content = "Open Source router OSes are kept updated and maintained. You get the latest features and security fixes."
 
 [[extra.list]]
 title = "No vendor lock-in"
