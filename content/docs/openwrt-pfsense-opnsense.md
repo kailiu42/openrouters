@@ -4,6 +4,8 @@ date = 2023-10-27
 weight = 20
 
 [extra]
+show_toc = true
+show_sidebar = true
 group_id = 2
 +++
 

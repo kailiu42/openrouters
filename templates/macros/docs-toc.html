@@ -1,8 +1,8 @@
 {% macro docs_toc(page) %}
-  {% if page.extra.toc %}
+  {% if page.extra.show_toc %}
   <nav class="docs-toc d-none d-xl-block col-xl-3" aria-label="Secondary navigation">
   	<div class="page-links">
-  			<h3>On this page</h3>
+  			<h3>Table of Content</h3>
   			<nav id="TableOfContents">
   					<ul>
   							{% for h1 in page.toc %}

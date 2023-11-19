@@ -1,4 +1,5 @@
 {% macro docs_sidebar(current_section) %}
+{% if page.extra.show_sidebar %}
 <div class="col-lg-5 col-xl-4 docs-sidebar">
 	<nav class="docs-links" aria-label="Main navigation">
 			{% set index_path = current_section ~ "/_index.md" | trim_start_matches(pat="/") %}
@@ -26,4 +27,5 @@
 			{% endif %}
 	</nav>
 </div>
+{% endif %}
 {% endmacro %}

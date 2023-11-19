@@ -4,6 +4,8 @@ date = 2023-10-27
 weight = 0
 
 [extra]
+show_toc = true
+show_sidebar = true
 # Group IDs are defined in docs/_index.md
 group_id = 1
 +++

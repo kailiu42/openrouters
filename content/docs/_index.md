@@ -2,8 +2,8 @@
 title = "List of documents"
 sort_by = "weight"
 insert_anchor_links = "heading"
-template = "doc-index.html"
-page_template = "page.html"
+template = "docs/index.html"
+page_template = "docs/page.html"
 date = 2023-10-31
 
 [extra]
