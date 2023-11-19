@@ -178,8 +178,7 @@ body.dark .border-top {
 
 @include media-breakpoint-up(lg) {
   body.dark .docs-sidebar {
-    order: 0;
-    border-right: 1px solid $border-dark;
+    border-left: 1px solid $border-dark;
   }
 }
 
