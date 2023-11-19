@@ -3,16 +3,13 @@ base_url = "https://openrouters.com"
 
 # The site title and description; used in feeds by default.
 title = "Open Routers"
-description = ""
-
-# The site theme to use.
-# theme = ""
+description = "Dive into our comprehensive guide on the best open source routers available in the market. Find reviews, comparisons, and insights to help you make the right choice!"
 
 # Whether to automatically compile all Sass files in the sass directory
 compile_sass = true
 
 # When set to "true", the generated HTML files are minified.
-minify_html = true
+minify_html = false
 
 # The taxonomies to be rendered for the site and their configuration of the default languages
 # Example:
@@ -70,18 +67,14 @@ theme_color = "#fff"
 
 # More about site's title
 title_separator = "|"  # set as |, -, _, etc
-title_addition = "All you need to know about Open Source routers"
+title_addition = "Ultimate Guide to Open Source routers"
 
+# Meta keywords
+keywords = "open routers, open source routers, open source router review, router os comparisons, best open source routers, open source network solutions, network devices, high performance routers, secure routers, user friendly Routers, openwrt, pfsense, opnsense"
 
 # Set date format in blog publish metadata
 timeformat = "%B %e, %Y" # e.g. June 14, 2021
 timezone = "America/New_York"
-
-## Math settings
-# options: true, false. Enable math support globally,
-# default: false. You can always enable math on a per page.
-math = false
-library = "katex"  # options: "katex", "mathjax". default is "katex".
 
 ## Open Graph + Twitter Cards
 [extra.open]

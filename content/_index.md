@@ -4,7 +4,7 @@ title = "Everything about Open Routers"
 # The homepage contents
 [extra]
 lead = "Running open source router OS such as OpenWrt, pfSense or OPNSense on commodity hardware."
-url = "/docs/introduction"
+url = "/docs/whats-open-router-and-why"
 url_button = "Read more"
 
 [[extra.list]]

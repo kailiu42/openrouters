@@ -14,7 +14,7 @@ Open Router is a router device that runs an open source router OS on commodity h
 
 OpenWrt, for example, is a popular router OS based on Linux. OPNSense and pfSense are other two popular router OSes based on FreeBSD. You can install them on supported hardware, and get a powerful router up running.
 
-It is recommended to run these router OSes on low power x86 router hardware. These hardware usually come with a Intel processor with 2 to 4 cores, and less than 20 watt power consumptions.
+It is recommended to run these router OSes on x86 router hardware. These hardware usually come with a low power consumption Intel processor with 2 to 4 cores, 2-8GB of memory and 4-16GB of SSD. Such configuration can serve as your home broadband router, or as the router for your professional studio, or as the firewall for your company with hundreds of employees.
 
 You may ask, why would I run such Open Router rather then buying a wireless router from, e.g. Asus or Netgear? The answer is, because they are powerful, trustworthy, easy to use, up to date, no vendor lock-in and free. Let me explain them in detail.
 
@@ -40,6 +40,8 @@ On the contrary, those non-open routers usually only receive less than 3-year of
 
 ### No vendor lock-in
 You can chose whatever hardware device your like, as long as it's supported and capable. You can chose to run OpenWrt or pfSense or OPNSense. Even if your hardware is broken, you can get a new one, install the same route OS, and restore your backup. Everything will up running again smoothly like you never changed your router.
+
+On the other hand, if you run a proprietary router from vendors such as Asus or Netgear, when you decide to replace it you will have no easy way to transfer your settings from the old router to the new one.
 
 ### Free
 Thanks to the great people who developed those router OS, they don't charge us for installing and running those open source router OS. You only need to pay for the hardware.

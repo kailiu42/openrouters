@@ -56,6 +56,9 @@
 {% endif %}
 <title>{{ title ~ title_addition }}</title>
 <meta name="description" content="{{ description }}">
+{% if config.extra.keywords %}
+<meta name="keywords" content="{{ config.extra.keywords }}">
+{% endif %}
 <link rel="canonical" href="{{ page_url | safe }}">
 
 {% if config.extra.open.enable %}
