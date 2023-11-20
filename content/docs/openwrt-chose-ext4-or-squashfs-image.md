@@ -1,6 +1,6 @@
 +++
 draft = true
-title = "How to set up OpenWrt with multiple root partitions"
+title = "Should I chose ext4 or squashfs image for OpenWrt?"
 date = 2023-11-12
 weight = 30
 

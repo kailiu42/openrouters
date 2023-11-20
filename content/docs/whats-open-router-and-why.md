@@ -14,9 +14,9 @@ group_id = 1
 
 Open Router is a router device that runs an open source router OS on commodity hardware.
 
-OpenWrt, for example, is a popular router OS based on Linux. OPNSense and pfSense are other two popular router OSes based on FreeBSD. You can install them on supported hardware, and get a powerful router up running.
+[OpenWrt](https://openwrt.org/), for example, is a popular router OS based on Linux. [OPNSense](https://opnsense.org/) and [pfSense](https://pfsense.org/) are other two popular router OSes based on FreeBSD. You can install them on supported hardware, and get a powerful router up running.
 
-It is recommended to run these router OSes on x86 router hardware. These hardware usually come with a low power consumption Intel processor with 2 to 4 cores, 2-8GB of memory and 4-16GB of SSD. Such configuration can serve as your home broadband router, or as the router for your professional studio, or as the firewall for your company with hundreds of employees.
+These router OSes run on x86 commodity hardware, which usually comes with a low power consumption Intel processor with 4 or more cores, 2 to 8GB of memory, 8 to 16GB of SSD, and most importantly 2 or more ethernet ports of at least 1Gb/s speed. Such configuration is enough to serve as your home broadband router, or as the router for your professional studio, or as the firewall for your company with hundreds of employees.
 
 You may ask, why would I run such Open Router rather then buying a wireless router from, e.g. Asus or Netgear? The answer is, because they are powerful, trustworthy, easy to use, up to date, no vendor lock-in and free. Let me explain them in detail.
 

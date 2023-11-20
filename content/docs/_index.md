@@ -20,6 +20,6 @@ title = "Open Source router OS"
 
 [[extra.groups]]
 id = 3
-title = "Hardware"
+title = "Advanced Tips"
 
 +++
