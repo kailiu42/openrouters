@@ -24,6 +24,10 @@
           {{ macros_edit_page::docs_edit_page(current_path=current_path) }}
         {% endif %}
         {{ macros_navigation::docs_navigation(page=page, current_section=current_section) }}
+
+        {% block comment %}
+          {{ macros_comment::comment() }}
+        {% endblock comment %}
       </main>
     </div>
   </div>
