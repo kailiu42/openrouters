@@ -6,6 +6,7 @@ weight = 30
 [extra]
 show_toc = true
 show_sidebar = true
+show_comment = true
 group_id = 3
 +++
 
