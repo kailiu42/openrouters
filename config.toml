@@ -132,4 +132,4 @@ weight = 30
 
 # Footer contents
 [extra.footer]
-info = 'Copyright © 2023 <a href="https://openrouters.com/">openrouters.com</a>'
+info = 'Copyright © 2023 - 2024 <a href="https://openrouters.com/">openrouters.com</a>'
